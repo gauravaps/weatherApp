@@ -37,7 +37,9 @@ const Weather = () => {
                 location:data.name,
                 // icon: data.weather[0].icon
                 icon: data.weather[0].icon === '01d' ? icon['01d'] : data.weather[0].icon,
-                country:data.sys.country
+                country:data.sys.country,
+                min_temp:data.main.temp_min,
+                max_temp:data.main.temp_max
 
             })
             console.log('weather data' , data)
@@ -71,8 +73,8 @@ const Weather = () => {
         <p>{weatherData.country}</p>
 
         <div className="min-max">
-            <span>Maximum {25}°C</span>
-            <span>Minimum {25}°C</span>
+            <span>maximum {weatherData.max_temp}°C</span>
+            <span>Minimum {weatherData.min_temp}°C</span>
                 
         </div>
         
