@@ -26,7 +26,7 @@ useEffect(() => {
 
   }, []);
 
-  // Function to fetch user's location
+  // Function to fetch user's location ...
   useEffect(() => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
