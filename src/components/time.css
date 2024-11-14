@@ -1,0 +1,28 @@
+
+  
+  /* Style for the time */
+  .time {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #dedee7;;
+    margin: 10px 0;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  /* Style for the date */
+  .date {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #d6cbcb;
+    margin: 8px 0;
+  }
+  
+  /* Style for the location */
+  .location {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #f5ebeb;
+    text-align: center;
+    margin-top: 10px;
+  }
+  

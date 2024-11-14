@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+  .app-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-image: url('https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .weather,
+.time-location {
+  flex: 1;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px; 
+  color: #fff;
+}
+
+.time-location {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #21212e;
+  box-shadow: 0px 4px 8px rgba(17, 17, 17, 0.712);
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
